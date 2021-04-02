@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Header Section*/
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+li {
+    list-style: none;
+   padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
