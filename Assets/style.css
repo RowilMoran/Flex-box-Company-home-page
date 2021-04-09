@@ -70,7 +70,7 @@ section {
    
 }
 
-.service-header h3 {
+h3 {
     text-align: center;
     padding-top: 40px;
     font-weight: normal;
@@ -141,4 +141,93 @@ section .flex-services {
      height: 200px;
      flex: 1 1 100px;
  }
+
+ /* Main-custommers-Section */
+
+ .main-custumer-title {
+     padding-bottom: 20px;
+     width: 100%;
+     height: 100px;
+     border-bottom: 1px solid rgba(115, 133, 138, 0.7); 
+ }
+
+ .customers-container {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     align-content: space-around;
+     flex-flow: row wrap;
+      
+ }
+
+ .customer-img {
+    border: 1px solid rgba(0, 0, 0, 0.5) ;
+    padding: 5px;
+    margin: 10px;
+ }
+
+ .customer-img img {
+     width: 160px;
+ }
+
+ /* Company Banner  */
+
+ .our-company {
+     margin-top: 60px;
+     width: 100%;
+     background:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url(/Assets/Image/banner-company/Background.png) no-repeat center center / cover fixed; 
+    padding: 20px 0;
+     
+ }
+
+ .company-container {
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .banner-text {
+     width: 45%;
+     padding: 36px 0;
+ }
+
+ .banner-image {
+     width: 48%;
+    position: relative;
+    top: 50px;
+    left: 24px;
+
+ }
+ 
+ .banner-image img {
+    width: 100%;
+ }
+
+ .banner-text h3 {
+     text-align: left;
+     color: rgb(235, 232, 232);
+     margin-bottom: 30px;
+     padding-top: 0;
+     font-size: 2.5em;
+ }
+
+ hr {
+     margin: 20px 0;
+     width: 90px;
+ }
+
+ .banner-text p {
+     color: rgb(235, 232, 232);
+     line-height: 2em;
+     font-size: 1.05em;
+     text-align: justify ;
+ }
+
+
+ 
+
 
