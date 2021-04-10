@@ -202,7 +202,7 @@ section .flex-services {
     left: 24px;
 
  }
- 
+
  .banner-image img {
     width: 100%;
  }
@@ -227,6 +227,111 @@ section .flex-services {
      text-align: justify ;
  }
 
+ /* contact section */
+
+ .contact-cont {
+     width: 100%;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     border-top: 2px solid rgb(63, 71, 187);;
+
+ }
+
+ .form {
+     width: 65%;
+     padding: 30px 70px 0 70px;
+     margin: 0 20px;
+ }
+
+ .contact {
+     width: 32%;
+     padding: 30px 30px 0 30px;
+     background-color: rgba(63, 71, 187, 0.9);
+    
+ }
+
+h4 {
+     padding: 25px 0 50px 0;
+     font-size: 2em;
+ }
+
+ .contact h4 {
+     color: cornsilk;
+ }
+
+ h5 {
+     font-size: 1.5rem;
+     font-weight: 300;
+     padding: 10px 0;
+     color: cornsilk;
+ }
+
+ .contact-body p, address {
+     font-size: 1.1rem;
+     line-height: 2rem;
+     padding: 10px 0;
+     color: cornsilk;
+ }
+
+ input, textarea {
+     font-size: 1.2em;
+     font-weight: 100;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border: 1px solid rgba(17, 17, 56, 0.3);
+     border-radius: 5px;
+ }
+
+ input[type=text] {
+     width: 100%;
+     
+ }
+
+ input[type=email] {
+     width: 49.4%;
+    
+     
+ }
+ input[type=number] {
+     width: 49.2%;    
+ }
+
+ input[type=submit]{
+     background-color: rgba(63, 71, 187, 0.9);
+     font-weight: 700;
+     color:white;
+     letter-spacing: 3px;
+     margin-bottom: 40px;
+     border-radius: 20px;+
+ }
+
+ textarea {
+     width: 100%;
+     resize: none;
+ }
+
+ input[type=submit]:hover{
+    background-color: rgba(247, 247, 247, 0.9);
+    font-weight: 700;
+    color:white;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: rgba(11, 19, 121, 1);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
  
 
