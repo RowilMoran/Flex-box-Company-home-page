@@ -52,7 +52,7 @@ a {
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                url(./Assets/Image/DrillingBanner.png) no-repeat center center / cover fixed; 
+                url(./Image/DrillingBanner.png) no-repeat center center / cover fixed; 
     
 }
 
@@ -185,7 +185,7 @@ section .flex-services {
      margin-top: 60px;
      width: 100%;
      background:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-                url(./Assets/Image/banner-company/Background.png) no-repeat center center / cover fixed; 
+                url(./Image/banner-company/Background.png) no-repeat center center / cover fixed; 
     padding: 20px 0;
      
  }
@@ -257,7 +257,7 @@ section .flex-services {
      width: 32%;
      padding: 30px 30px 0 30px;
      background: linear-gradient(rgba(63, 71, 187, 0.9), rgba(63, 71, 187, 0.9)),
-     url(./Assets/Image/map.png) no-repeat center center / cover fixed; ;
+     url(./Image/map.png) no-repeat center center / cover fixed; ;
  }
 
 h4 {
@@ -416,8 +416,6 @@ footer {
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-                    url(./Assets/Image/DrillingBanner.png) no-repeat center center / cover fixed; 
         
     }
     
@@ -498,8 +496,7 @@ footer {
     .contact {
         width: 100%;
         padding: 30px 30px 0 30px;
-        background: linear-gradient(rgba(63, 71, 187, 0.9), rgba(63, 71, 187, 0.9)),
-        url(./Assets/Image/map.png) no-repeat center center / cover fixed; ;
+        
     }
    
 }
@@ -585,7 +582,4 @@ li {
     .contact {
         width: 100%;
         padding: 30px 30px 0 30px;
-        background: linear-gradient(rgba(63, 71, 187, 0.9), rgba(63, 71, 187, 0.9)),
-        url(./Assets/Image/map.png) no-repeat center center / cover fixed; ;
-    }
 }
